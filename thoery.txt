@@ -67,7 +67,7 @@ link -         <link href="./styles.css" rel="stylesheet">
 6. List Tags - <ul>,<ol>,<li>
 7. Table tags - table, tr, td . th, thead, tbody
 8. Form tags  - <form>, <input>, <textarea>, <select>
-9. Scrit tags -  Script and no-Script
+9. Script tags -  Script and no-Script
 
 HTML Text Tags
 ----------------
