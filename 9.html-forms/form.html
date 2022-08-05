@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>HTML Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>User Registration Form</h1>
+        <form>
+            <div>
+                <label>Username</label>
+                <input type="text" 
+                       class="form-control w-50" 
+                       required
+                       
+                       name="username"
+                >
+            </div>
+            <br>
+            <div>
+                <label>Password</label>
+                <input type="password" class="form-control w-50" >
+            </div>
+            <br>
+            <div>
+                <label>Comments</label>
+                <textarea class="form-control w-50" rows="5" ></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Subjects</label>&ensp;
+                <input type="checkbox" class="form-check-input"  value="maths"> &ensp;Maths&ensp;
+                <input type="checkbox" class="form-check-input" required> &ensp;Physics&ensp;
+                <input type="checkbox" class="form-check-input"> &ensp;Chemistry&ensp;
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>&ensp;
+                <input type="radio" class="form-check-input" value="1" name="gender">&ensp;Female&ensp;
+                <input type="radio" class="form-check-input" value="0" name="gender">&ensp;Male&ensp;
+            </div>
+            <br>
+            <div>
+                <label>Country</label>
+                <select class="form-select w-50">
+                    <option value="1">Bharat</option>
+                    <option value="2">Japan</option>
+                    <option value="3">Australia</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>States</label>
+                <select class="form-select w-50" multiple>
+                    <option value="1">Bharat</option>
+                    <option value="2">Japan</option>
+                    <option value="3">Australia</option>
+                </select>
+            </div>
+            <br>
+            <div>
+               Accept All Files :  <input type="file"> <br>
+               Accept PDF Files :  <input type="file" accept=".pdf"> <br>
+               Accept CSV Files :  <input type="file" accept=".csv"> <br>
+               Accept Excel (97-2003) Files :  <input type="file" accept="application/vnd.ms-excel"> <br>
+               Accept Excel 2007+ Files :  <input type="file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"> <br>
+               Accept Image Files :  <input type="file" accept="image/*"> <br>
+            </div>
+
+            <input type="hidden" value="30">
+            <br>
+            <div>
+                <button class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-info">Get Data</button>
+                <button type="reset" class="btn btn-warning">Reset</button>
+                <br><br>
+                <input type="button" value="Submit" class="btn btn-primary">
+                <input type="submit" value="Get Data" class="btn btn-info">
+                <input type="reset" value="Reset" class="btn btn-warning">
+                <input type="image" src="../images/bear/favicon-16x16.png" alt="bird">
+            </div>
+        </form>
+    </div>
+    <br><br><br>
+</body>
+</html>
